@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Acessível</title>
+
+  <style>
+    /* Estilos inspirados na aparência da Wikipédia */
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #222;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, main, footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: #1a0dab;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao meu site!</h1>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#" aria-label="Ir para a página inicial">Início</a></li>
+        <li><a href="#" aria-label="Explorar o site">Explorar</a></li>
+        <li><a href="#" aria-label="Acessar página aleatória">Aleatório</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre o site</h2>
+      <p>Este site é inspirado no filme <em>Divertidamente</em>. Explore o conteúdo e divirta-se!</p>
+    </section>
+
+    <section>
+      <h2>Conteúdo Principal</h2>
+      <article>
+        <h3>Artigo 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.</p>
+        <a href="#" aria-label="Ler mais sobre o Artigo 1">Ler mais</a>
+      </article>
+      <article>
+        <h3>Artigo 2</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus euismod, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget aliquam nisl nisl eget nisl.</p>
+        <a href="#" aria-label="Ler mais sobre o Artigo 2">Ler mais</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Meu Site Acessível. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
